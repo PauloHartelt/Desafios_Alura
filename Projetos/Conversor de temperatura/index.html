@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Conversor de temperatura - D03</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Conversor de temperaturas
+  </h1>
+  <p class="page-subtitle">
+    Descubra os graus em diversas temperaturas
+  </p>
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt=""><br><br>
+  <label for="grau">Insira o grau em Celsius, Kelvin e Fahrenheit </label><br>
+  <input type="number" id="celsius" size="2" />
+  <input type="number" id="kelvin" size="2" />
+  <input type="number" id="fahrenheit" size="2" /><br>
+  <button type="submit" onclick="converterCelsius()">Para Celsius</button>
+  <button type="submit" onclick="converterKelvin()">Para Kelvin</button>
+  <button type="submit" onclick="converterFahrenheit()">Para Fahrenheit</button>
+  <h2 id="valorConvertido"></h2>
+</div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
